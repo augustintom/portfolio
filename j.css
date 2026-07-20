@@ -1,0 +1,25 @@
+.div {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: ball 5s infinite alternate;
+}
+
+@keyframes ball {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    50% {
+        top: 85%;
+        left: 46%;
+    }
+
+    100% {
+        top: 0px;
+        left: 90%;
+    }
+}
